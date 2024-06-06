@@ -1,0 +1,102 @@
+.about {
+  margin-top: 30px;
+}
+.about-heading {
+  padding: 40px 120px;
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  flex-direction: column;
+  gap: 40px;
+  font-family: "Urbanist", sans-serif !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #37517e;
+}
+.about-images {
+  width: 500px;
+  height: 300px;
+}
+.about-content {
+  padding: 40px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: "Urbanist", sans-serif !important;
+}
+.about-con-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.about-con-wrap-mid {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  background: #f7f7f7;
+  gap: 10px;
+}
+.about-con {
+  width: 50%;
+  font-size: 20px;
+}
+.cont {
+  padding-right: 40px;
+}
+@media screen and (max-width: 1050px) {
+  .about-images {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-heading {
+    padding: 40px 60px;
+  }
+  .about-content {
+    padding: 40px 60px;
+  }
+  .about-images {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-img {
+    display: none;
+  }
+  .about-con {
+    width: 100%;
+    font-size: 16px;
+  }
+  .cont {
+    padding: 20px;
+  }
+  .about-heading {
+    padding: 40px;
+  }
+  .about-content {
+    padding: 40px;
+  }
+  .about-con-wrap-mid {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about-heading {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .about-con-wrap {
+    text-align: center;
+  }
+
+  .cont {
+    text-align: center;
+    padding: 10px;
+  }
+}

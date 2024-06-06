@@ -1,0 +1,171 @@
+.benefits-wrapper {
+  /* height: 100vh; */
+  padding: 3.375rem 0;
+  background-size: cover;
+  position: relative;
+}
+.features {
+  padding-top: 30px;
+  background-color: azure;
+}
+.features-heading {
+  padding: 40px 120px;
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  flex-direction: column;
+  gap: 40px;
+  font-family: "Urbanist", sans-serif !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #37517e;
+}
+.features-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 87px;
+  padding-inline: 100px;
+}
+.features-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-direction: row;
+  justify-content: center;
+}
+.features-card {
+  display: flex;
+  width: 27%;
+  background: #fff;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+}
+.features-content {
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .features-heading {
+    padding: 40px 80px;
+  }
+  .features-content {
+    padding: 40px 60px;
+  }
+  .features-card{
+    width: 25%;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .features-heading {
+    padding: 40px 60px;
+  }
+  .features-content {
+    padding: 40px;
+  }
+  .features-card{
+    width: 23%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .features-heading {
+    padding: 40px;
+  }
+  .features-content {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .features-card{
+    width: 60%;
+  }
+  .features-heading{
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+}
+
+
+.benefits {
+  padding-top: 30px;
+}
+.benefits-heading {
+  padding: 40px 120px;
+  display: flex;
+  font-size: 40px;
+  flex-direction: column;
+  text-align: center;
+  gap: 40px;
+  font-family: "Urbanist", sans-serif !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #37517e;
+}
+.benefits-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 87px;
+  padding-inline: 100px;
+}
+.benefits-card-wrapper {
+  display: flex;
+  gap: 60px;
+}
+.benefits-card {
+  display: flex;
+  width: 60%;
+  background: #fff;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.benefits-content {
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.benefits-images {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  .benefits-images {
+    width: 160px;
+    height: 160px;
+  }
+  .benefits-heading {
+    padding: 40px 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .benefits-heading {
+    padding: 40px 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .benefits-heading {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .benefits-cards {
+    width: auto;
+    padding: 0px;
+  }
+  .benefits-heading{
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+}

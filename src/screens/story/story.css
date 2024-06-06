@@ -1,0 +1,100 @@
+.story-wrapper {
+  background-color: azure;
+}
+.story {
+  margin-top: 30px;
+}
+.story-heading {
+  padding: 40px 120px;
+  display: flex;
+  font-size: 40px;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+  font-family: "Urbanist", sans-serif !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #37517e;
+}
+.story-content {
+  padding: 40px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: "Urbanist", sans-serif !important;
+}
+.client-wrapper {
+  padding: 40px 120px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
+  font-family: "Urbanist", sans-serif !important;
+}
+.client-cards {
+  display: flex;
+  width: 60%;
+  background: azure;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.client-images {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+@media screen and (max-width: 992px) {
+  .story-heading {
+    padding: 40px 80px;
+  }
+  .story-content {
+    padding: 40px 80px;
+  }
+  .client-images {
+    width: 160px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .client-wrapper {
+    padding: 40px 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .story-heading {
+    padding: 40px 60px;
+  }
+  .story-content {
+    padding: 40px 60px;
+  }
+  .client-wrapper {
+    padding: 40px 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .story-heading {
+    padding: 40px;
+    font-size: 30px;
+  }
+  .story-content {
+    padding: 40px;
+  }
+  .client-wrapper {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .client-cards {
+    width: auto;
+    padding: 0px;
+  }
+  .story-content {
+    text-align: center;
+  }
+  .story-heading {
+    margin-bottom: 0px;
+  }
+}
