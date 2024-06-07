@@ -21,7 +21,7 @@ export default function Header() {
               <a href="#benefits">Features</a>
             </li>
             <li>
-              <a href="#story">Client list</a>
+              <a href="#story">Client</a>
             </li>
           </ul>
         </div>
