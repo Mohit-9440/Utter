@@ -98,3 +98,17 @@
     margin-bottom: 0px;
   }
 }
+@media screen and (max-width: 360px) {
+  .story {
+    margin-top: 0px;
+  }
+  .story-heading {
+    padding: 30px 20px;
+  }
+  .story-content {
+    padding: 20px;
+  }
+  .client-wrapper {
+    padding: 20px;
+  }
+}

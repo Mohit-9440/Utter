@@ -16,9 +16,7 @@ export default function Benefits() {
 
   const updateSlidesPerView = () => {
     const width = window.innerWidth;
-    if (width < 480) {
-      setSlidesPerView(1);
-    } else if (width >= 480 && width < 768) {
+    if (width < 768) {
       setSlidesPerView(2);
     } else if (width >= 768 && width < 992) {
       setSlidesPerView(3);

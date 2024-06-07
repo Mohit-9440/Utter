@@ -31,6 +31,10 @@
 
 @media screen and (max-width: 600px) {
   .home-video {
-    object-fit: contain;
+    object-fit: fill;
+  }
+  .home-wrapper {
+    position: relative;
+    height: calc(100vh * 9 / 16);
   }
 }

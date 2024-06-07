@@ -87,6 +87,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .about {
+    margin-top: 0px;
+  }
   .about-heading {
     font-size: 30px;
     margin-bottom: 0px;
@@ -98,5 +101,13 @@
   .cont {
     text-align: center;
     padding: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .about-content {
+    padding: 20px;
+  }
+  .about-heading {
+    padding: 30px 20px;
   }
 }
